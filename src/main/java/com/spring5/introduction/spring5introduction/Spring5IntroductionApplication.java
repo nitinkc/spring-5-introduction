@@ -8,10 +8,11 @@ import org.springframework.context.ApplicationContext;
 public class Spring5IntroductionApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext applicationContext = SpringApplication.run(Spring5IntroductionApplication.class, args);
+		SpringApplication.run(Spring5IntroductionApplication.class, args);
+		/*ApplicationContext applicationContext = SpringApplication.run(Spring5IntroductionApplication.class, args);
 
 		for(String name : applicationContext.getBeanDefinitionNames()){
 			System.out.println(name);
-		}
+		}*/
 	}
 }
